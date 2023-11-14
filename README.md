@@ -10,19 +10,19 @@ The live site can be found at [live-site](https://www.####/). Designs can be fou
 
 We use the wonderful [Contributor Covenant](http://contributor-covenant.org) for
 our code of conduct. Please
-[read it](https://github.com/ifmeorg/####/blob/main/code_of_conduct.md)
+[read it](https://github.com/daaimah123/Open-Source-Test/blob/main/CODE_OF_CONDUCT.md)
 before joining our project.
 
-**Read about our project goals and how to contribute (not just as a developer) [here](https://github.com/###/ifme/blob/main/CONTRIBUTING.md).**
+**Read about our project goals and how to contribute (not just as a developer) [here]([https://github.com/daaimah123/Open-Source-Test/blob/main/CONTRIBUTING.md).**
 
 ## Documentation
 
-Please check out our [Wiki](https://github.com/####/###/wiki) for full documentation.
+Please check out our [Wiki](https://github.com/daaimah123/Open-Source-Test/wiki) for full documentation.
 
 ### Installation
 
-[These are the instructions](https://github.com/###/ifme/wiki/Installation) for setting up and installing the app. Test, development, and production instances are covered.
+[These are the instructions](https://github.com/daaimah123/Open-Source-Test/wiki/Installation) for setting up and installing the app. Test, development, and production instances are covered.
 
 ### Contributor Blurb
 
-Everyone is highly encouraged to [add themselves](https://github.com/###/###/wiki/Contributor-Blurb) to our Contribute page.
+Everyone is highly encouraged to [add themselves](https://github.com/daaimah123/Open-Source-Test/wiki/Contributor-Blurb) to our Contribute page.
