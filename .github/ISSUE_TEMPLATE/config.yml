@@ -1,0 +1,81 @@
+blank_issues_enabled: false
+name: Bug Report
+description: File a bug report - TEMPLATE
+title: "[Bug]: "
+labels: ["bug", "triage"]
+projects: ["octo-org/1", "octo-org/44"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened and what did you expect to happen?
+      description: Tell us what occurred and what should have occurred!
+      placeholder: Tell us what you see!
+      value: "If this issue is describing a bug, include some steps to reproduce the behavior."
+    validations:
+      required: true
+  - type: textarea
+    id: image
+    attributes:
+      label: Please share an image of GIF of the issue.
+      description: copy the image or GIF (right click, Copy image) and then paste it into the text box where you describe the issue -OR- Just drag and drop
+      placeholder: Insert image or GIF into text area.
+      value: "Insert image or GIF into text area."
+    validations:
+      required: true
+  - type: textarea
+    id: relevant-files
+    attributes:
+      label: A list of relevant files for this issue.
+      description: Help people navigate the project and offer some clues of where to start.
+      placeholder: List relevant files.
+      value: "List relevant files related to the issue."
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: textarea
+    id: browser-details
+    attributes:
+      label: Can you tell us anything else about your browsing experience to help us recreate the issue?
+      description: 
+      placeholder: What OS are you on? Which Update?
+      value: "Extra Browser Details"
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/daaimah123/Open-Source-Test/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
